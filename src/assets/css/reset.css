@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333;
+    font-size: 0.2rem;
+    text-decoration: none;
+    
+}
+input{
+     border:none;
+     background:none;
+     border-bottom: 1px solid #666666
+}

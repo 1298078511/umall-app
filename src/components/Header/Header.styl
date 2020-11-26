@@ -1,0 +1,34 @@
+@import("../../stylus/index.styl")
+.header
+    width: 100vw 
+    height $headerHeight
+    position fixed
+    left 0
+    top: 0
+    background: $orange
+    .header-back
+        position absolute 
+        left 0
+        top: 0
+        margin-left: $margin
+        font-size: $h2
+        color: $frontW
+        line-height: $headerHeight
+        z-index 2
+    .header-title
+        width: 100vw
+        height: $headerHeight
+        text-align: center 
+        line-height: $headerHeight
+        font-size: $h2
+        color: $frontW
+        z-index: 1
+    .header-register
+        position absolute
+        right: 0 
+        top: 0 
+        margin-right $margin
+        font-size: $h2
+        color: $frontW
+        line-height: $headerHeight
+        z-index: 2
